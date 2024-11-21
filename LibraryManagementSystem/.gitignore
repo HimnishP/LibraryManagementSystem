@@ -1,0 +1,57 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Visual Studio specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+
+# Rider IDE specific files
+.idea/
+*.sln.iml
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Auto-generated files
+*.Designer.cs
+*.g.cs
+*.g.i.cs
+
+# Packages and dependencies
+*.nuget/
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Logs and other debug files
+*.log
+*.tlog
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Configuration Files
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Publish output
+publish/
