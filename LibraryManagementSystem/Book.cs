@@ -8,16 +8,16 @@ namespace LibraryManagementSystem
 {
     internal class Book
     {
-        public int Id { get; set;
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Author { get; set; }
         public string Genre { get; set; }
-        public string yearPublished { get; set; }
+        public string YearPublished { get; set; }
         public string ISBN { get; set; }
         public int CopiesAvailable { get; set; }
         public bool AvailabilityStatus { get; private set; }
 
-        public Book(int id, string title, string author, string genre, int yearPublished, string isbn)
+        public Book(int id, string title, string author, string genre, string yearPublished, string isbn)
         {
             Id = id;
             Title = title;
@@ -83,4 +83,5 @@ namespace LibraryManagementSystem
             Console.WriteLine($"ISBN: {ISBN}");
             Console.WriteLine($"Availability: {(AvailabilityStatus ? "Available" : "Borrowed")}");
         }
-    }
+    }    
+}
