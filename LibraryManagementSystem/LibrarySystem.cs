@@ -1,20 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace LibraryManagementSystem
 {
-    public partial class LibrarySystem : Form
+    internal class LibrarySystem
     {
-        public LibrarySystem()
+        private static LibrarySystem instance;
+
+        private LibrarySystem() { }
+
+        public static LibrarySystem GetInstance()
         {
-            InitializeComponent();
+            if (instance == null)
+            {
+                instance = new LibrarySystem();
+            }
+            return instance;
         }
     }
 }

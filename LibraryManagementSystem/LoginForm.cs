@@ -30,7 +30,7 @@ namespace LibraryManagementSystem
             if (name == null || regex.IsMatch(email) )
             {
                 User user = new User(name, email);
-                LibrarySystem librarySystem = new LibrarySystem();
+                LibrarySystemForm librarySystem = new LibrarySystemForm();
                 librarySystem.Show();
             } else
             {
