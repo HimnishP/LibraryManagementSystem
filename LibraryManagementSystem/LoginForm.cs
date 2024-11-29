@@ -30,9 +30,18 @@ namespace LibraryManagementSystem
             if (name == null || regex.IsMatch(email) )
             {
                 User user = new User(name, email);
+                // Create an instance of LibrarySystemForm
                 LibrarySystemForm librarySystem = new LibrarySystemForm();
-                librarySystem.Show();
-            } else
+
+                // Show the LibrarySystemForm as a modal window
+                librarySystem.ShowDialog();
+
+                // After closing the modal, close the LoginForm
+                this.Hide();
+
+
+            }
+            else
             {
                 displayMessage.Text = "ERROR : name or email is invalid";
             }
