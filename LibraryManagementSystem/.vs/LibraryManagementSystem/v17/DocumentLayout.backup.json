@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|c:\\users\\patey\\documents\\github\\librarymanagementsystem\\librarymanagementsystem\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|c:\\users\\patey\\documents\\github\\librarymanagementsystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|c:\\users\\patey\\documents\\github\\librarymanagementsystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|c:\\users\\patey\\documents\\github\\librarymanagementsystem\\librarymanagementsystem\\librarysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A1A0EFB4-3D4F-456C-A061-CA468DEAFE87}|LibraryManagementSystem.csproj|solutionrelative:librarysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +22,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrarySystem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LibrarySystem.cs",
+              "RelativeDocumentMoniker": "LibrarySystem.cs",
+              "ToolTip": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LibrarySystem.cs [Design]",
+              "RelativeToolTip": "LibrarySystem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:57:30.775Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]*",
+              "RelativeToolTip": "LoginForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T23:38:31.758Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
-              "RelativeDocumentMoniker": "Book.cs",
-              "ToolTip": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\Book.cs",
-              "RelativeToolTip": "Book.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAiwFYAAAAAAAAAAAAAAA==",
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\patey\\Documents\\GitHub\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs*",
+              "RelativeToolTip": "LoginForm.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T20:38:19.298Z",
+              "WhenOpened": "2024-11-28T23:36:16.669Z",
               "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "a817a709-03a6-4bf3-916e-6b5786cc70a4",
+        "Display": 0,
+        "X": 965,
+        "Y": 180,
+        "Width": 485,
+        "Height": 573,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             }
           ]
         }

@@ -13,9 +13,11 @@ namespace LibraryManagementSystem
         public string Email { get; set; }
         public List<Book> BorrowedBooks { get; set; }
 
-        public User(int userId, string name, string email)
+        private static int incrementId = -1;
+
+        public User(string name, string email)
         {
-            UserId = userId;
+            UserId = ++incrementId;
             Name = name;
             Email = email;
             BorrowedBooks = new List<Book>(); // Correct initialization

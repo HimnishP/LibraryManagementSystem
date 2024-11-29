@@ -8,7 +8,7 @@ namespace LibraryManagementSystem
 {
     internal class Librarian : User
     {
-        public Librarian(int userId, string name, string email) : base(userId, name, email) { }
+        public Librarian(int userId, string name, string email) : base(name, email) { }
 
         public void AddBook(Book book, List<Book> libraryCatalog)
         {
