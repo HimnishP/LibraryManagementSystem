@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LibraryManagementSystem
 {
-    internal class Librarian : User
+    internal class Customer : User
     {
-        public Librarian(string name, string email) : base(name, email)
+        public Customer(string name, string email) : base(name, email)
         {
         }
     }
